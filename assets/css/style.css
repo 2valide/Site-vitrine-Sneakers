@@ -1,0 +1,176 @@
+nav{
+    display: flex;
+    justify-content: flex-start;
+    align-items: center;
+    margin-left: 10em;
+    padding: 2em;
+    gap: 10px;
+    padding-left: 0;
+}
+
+ul {
+    display: flex;
+    align-content: center;
+    align-items: center;
+    justify-content: center;
+
+}
+
+li {
+    list-style: none;
+    margin: 0 10px;
+
+}
+
+a {
+    text-decoration: none;
+    font-family: 'Kumbh Sans', sans-serif;
+    color: #69707D;
+    font-size: 15px;
+}
+
+.cart {
+    margin-left: 29em;
+}
+
+.profil {
+    margin-left: 20px;
+}
+
+.trait{
+    margin-left: 10em;
+}
+
+/* *mains*/
+
+#photo1bis,#photo2, #photo3, #photo4 {
+    width: 88px;
+}
+
+.produit{
+    display: flex;
+    flex-direction: column;
+    align-items: center;
+    margin: 0 10em;
+    padding: 2em;
+    gap: 20px;
+    padding-left: 0;
+    padding-right: 0;
+
+    /* background-color: blue; */
+}
+
+.description{
+    /* background-color: bisque; */
+    width: 30rem;
+
+}
+
+
+.pageproduit {
+    display: flex;
+    align-items: center;
+    padding: 2em;
+    /* gap: 10px; */
+    
+}
+
+.sousproduit {
+    display: flex;
+    gap: 15px;
+}
+
+
+.description h1{
+    font-size: 48px;
+    font-family: 'Kumbh Sans', sans-serif;
+    color: #1D2026;
+    font-weight: bold;
+}
+
+.description p{
+    font-size: 16px;
+    font-family: 'Kumbh Sans', sans-serif;
+    color: #69707D;
+    font-weight: normal;
+}
+
+.description h2 {
+    font-size: 13px;
+    font-family: 'Kumbh Sans', sans-serif;
+    color: #FF7E1B;
+    font-weight: bold;
+    letter-spacing: 2px;
+}
+
+.promo h1{
+    font-size: 28px;
+    font-family: 'Kumbh Sans', sans-serif;
+    color: #1D2026;
+    font-weight: bold;
+}
+
+.promo {
+    display: flex;
+    align-items: center;
+    gap: 10px;
+}
+
+.promo h2 {
+    background-color: #FFEEE2;
+    padding: 5px;
+    border-radius: 10px;
+    font-size: 16px;
+    font-weight: bold;
+    font-family: 'Kumbh Sans', sans-serif;
+}
+
+.prix h3 {
+    font-size: 16px;
+    font-family: 'Kumbh Sans', sans-serif;
+    color: #B6BCC8;
+    font-weight: bold;
+}
+
+.nombre {
+    display: flex;
+    align-items: center;
+    justify-content: space-evenly;
+    gap: 20px;
+    background-color: #F6F8FD;
+    width: 8em;
+    border-radius: 10%;
+}
+
+.nombre div p {
+    color: #1D2026;
+}
+
+.nombre button {
+    background-color: transparent;
+    border: none;
+    padding: 10px;
+}
+
+.bouton {
+    display: flex;
+    align-items: center;
+    gap: 20px;
+}
+
+.addToCart button {
+    background-color: #FF7E1B;
+    border: none;
+    width: 18em;
+    height: 3em;
+    border-radius: 10% 10% 10% 10%;
+    color: #FFFFFF;
+    display: flex;
+    align-items: center;
+    justify-content: center;
+    gap: 15px;
+    font-weight: bold;
+    font-size: 16px;
+    /* background-color: #FFEEE2; */
+}
+
