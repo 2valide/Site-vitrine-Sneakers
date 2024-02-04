@@ -200,3 +200,57 @@ a {
     /* background-color: #FFEEE2; */
 }
 
+
+@media screen and (min-width: 2560px) {
+    .pageproduit {
+      justify-content: center;
+      gap: 17%;
+    }
+  }
+
+@media screen and (min-width: 1440px) {
+    .navGauche {
+        margin-left: 10%;
+    }
+
+    .navDroite {
+        margin-right: 10%;
+    }
+
+    .trait hr{
+        margin-left: 10%;
+        margin-right: 10%;
+    }
+
+    .pageproduit {
+        justify-content: center;
+        gap: 17%;
+    }
+    
+}
+
+@media screen and (max-width: 1024px) {
+    /* .pageproduit {
+        align-items: center;
+        gap: 20px;
+    } */
+
+    .navGauche {
+        margin-left: 5%;
+    }
+
+    .navDroite {
+        margin-right: 5%;
+    }
+
+    .trait hr{
+        margin-left: 5%;
+        margin-right: 5%;
+    }
+
+    .pageproduit {
+        justify-content: center;
+        gap: 5%;
+    }
+    
+}
