@@ -1,5 +1,5 @@
 <!DOCTYPE html>
-<html lang="en">
+<html lang="fr">
 <head>
     <meta charset="UTF-8">
     <meta name="viewport" content="width=device-width, initial-scale=1.0">
@@ -8,12 +8,16 @@
     <link href="https://fonts.googleapis.com/css2?family=Kumbh+Sans&display=swap" rel="stylesheet">
     <link rel="stylesheet" href="assets/css/node_modules/normalize.css/normalize.css">
     <link rel="stylesheet" href="assets/css/style.css">
-    <title>Document</title>
+    <title>Sneakers</title>
 </head>
 <body>
     <header>
         <nav>
             <div class="navGauche">
+                <div class="bars">
+                    <!-- <i class="fa-solid fa-bars" style="color: #69707d;" class="menuhamburger"></i> -->
+                    <img src="assets/img/bars-solid.svg" alt="Menu Hamburger" class="menuhamburger" >
+                </div>
                 <div class="logo">
                     <img src="assets/img/sneakers 2.svg" alt="Logo">
                 </div>
@@ -49,9 +53,21 @@
 
                 <div class="sousproduit">
                     <img src="assets/img/img1.svg" alt="sneakers" id="photo1bis">
+                    <div class="blur1"></div>
                     <img src="assets/img/img2.svg" alt="sneakers" id="photo2">
+                    <div class="blur2"></div>
                     <img src="assets/img/img3.svg" alt="sneakers" id="photo3">
+                    <div class="blur3"></div>
                     <img src="assets/img/img4.svg" alt="sneakers" id="photo4">
+                    <div class="blur4"></div>
+                </div>
+            </div>
+            <div class="flecheNavigation">
+                <div class="flechegauche">
+                    <img src="assets/img/fleche gauche.svg" alt="Fleche Gauche" id="btnflecheGauche">
+                </div>
+                <div class="flechedroite">
+                    <img src="assets/img/fleche droite.svg" alt="Fleche Droite" id="btnflecheDroite">
                 </div>
             </div>
             <div class="description">
@@ -71,7 +87,7 @@
                         <div><button class="plus"><i class="fa-solid fa-plus" style="color: #ff7e1b;"></i></button></div>
                     </div>
                     <div class="addToCart">
-                        <button><img src="assets/img/whitecart.svg" alt="">Add to Cart</button>
+                        <button id="addToCartBtn"><img src="assets/img/whitecart.svg" alt="ajout paniers bouton" >Add to Cart</button>
                     </div>
                     </div>
                     
@@ -80,8 +96,24 @@
             </div>
             
         </section>
+        <div id="newsletterPopup" class="popup">
+            <div class="popup-content">
+                <span id="closeButton" class="close" onclick="closePopup()">&times;</span>
+                <h2>Inscrivez-vous à notre newsletter</h2>
+                <p>Pour etre alerté des prochaine sortie</p>
+                <form>
+                    <label for="email">Adresse e-mail:</label>
+                    <input type="email" id="email" name="email" required>
+                    <button type="submit">S'inscrire</button>
+                </form>
+            </div>
+        </div>
     </main>
-    <footer></footer>
+    <footer>
+        <div class="footer">
+            <p>© <span id="annee"></span> Anthony ZHAO.</p>
+        </div>
+    </footer>
 </body>
 <script src="assets/js/script.js"></script>
 <script src="https://kit.fontawesome.com/c229eee80c.js" crossorigin="anonymous"></script>
